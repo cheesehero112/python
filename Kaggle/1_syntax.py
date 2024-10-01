@@ -10,7 +10,7 @@ if spam_amount > 0:
     print("But I don't want ANY spam!")
 
 viking_song = "Spam " * spam_amount
-print(viking_song)
+print(f"viking song is ,{viking_song}")
 
 ##### Above will print #####
 # 0
@@ -19,7 +19,7 @@ print(viking_song)
 
 
 ### How to check data type
-type(spam_amount)
+print(type(spam_amount))
 int
 
 # Numbers
